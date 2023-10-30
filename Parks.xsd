@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Definition for the root element 'Parks' -->
+    <xs:element name="Parks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Park" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="EstablishedIn" type="xs:positiveInteger"/>
+                            <xs:element name="Reservation">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Address" type="xs:string"/>
+                                        <xs:element name="Url" type="xs:anyURI"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="NeighboringStates">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="State" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="type" type="xs:string" use="required"/>
+                        <xs:attribute name="Founder" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definition for the 'Owner' element (outside of the root, assuming it's referenced elsewhere) -->
+    <xs:element name="Owner" type="xs:string"/>
+
+</xs:schema>
