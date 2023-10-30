@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Parks>
-    <Park type="Recreational" Founder="Roosevelt">
-        <Name>Grand Canyon</Name>
+    <Park type="National" Founder="Woodrow Wilson">
+        <Name>Grand Canyon National Park</Name>
         <EstablishedIn>1919</EstablishedIn>
         <Reservation>
-            <Address>20 South Entrance Road Grand Canyon, AZ 86023</Address>
-            <Url>http://www.nps.gov/grca</Url>
+            <Address>20 South Entrance Road, Grand Canyon, AZ 86023</Address>
+            <Url>https://www.nps.gov/grca</Url>
         </Reservation>
         <NeighboringStates>
             <State>Arizona</State>
@@ -13,12 +13,12 @@
             <State>Nevada</State>
         </NeighboringStates>
     </Park>
-    <Park type="Recreational">
-        <Name>Yellowstone</Name>
+    <Park type="National" Founder="Ulysses S. Grant">
+        <Name>Yellowstone National Park</Name>
         <EstablishedIn>1872</EstablishedIn>
         <Reservation>
-            <Address>2 Officers Row Yellowstone National Park, WY 82190</Address>
-            <Url>http://www.nps.gov/yell</Url>
+            <Address>2 Officers Row, Yellowstone National Park, WY 82190</Address>
+            <Url>https://www.nps.gov/yell</Url>
         </Reservation>
         <NeighboringStates>
             <State>Wyoming</State>
@@ -26,111 +26,104 @@
             <State>Idaho</State>
         </NeighboringStates>
     </Park>
-    <Park type="Historical" Founder="Lincoln">
-        <Name>Yosemite</Name>
+    <Park type="National" Founder="Abraham Lincoln">
+        <Name>Yosemite National Park</Name>
         <EstablishedIn>1890</EstablishedIn>
         <Reservation>
-            <Address>9035 Village Drive Yosemite Valley, CA 95389</Address>
-            <Url>http://www.nps.gov/yose</Url>
+            <Address>9035 Village Drive, Yosemite Valley, CA 95389</Address>
+            <Url>https://www.nps.gov/yose</Url>
         </Reservation>
         <NeighboringStates>
             <State>California</State>
-            <State>Nevada</State>
         </NeighboringStates>
     </Park>
-    <Park type="Recreational">
-        <Name>Zion</Name>
+    <Park type="National" Founder="Woodrow Wilson">
+        <Name>Zion National Park</Name>
         <EstablishedIn>1919</EstablishedIn>
         <Reservation>
-            <Address>1 Zion Park Blvd. Springdale, UT 84767</Address>
-            <Url>http://www.nps.gov/zion</Url>
+            <Address>1 Zion Park Blvd., Springdale, UT 84767</Address>
+            <Url>https://www.nps.gov/zion</Url>
         </Reservation>
         <NeighboringStates>
             <State>Utah</State>
-            <State>Nevada</State>
-            <State>Arizona</State>
         </NeighboringStates>
     </Park>
-    <Park type="Historical">
-        <Name>Arches</Name>
+    <Park type="National" Founder="Richard Nixon">
+        <Name>Arches National Park</Name>
         <EstablishedIn>1971</EstablishedIn>
         <Reservation>
-            <Address>1234 Arches Scenic Drive Moab, UT 84532</Address>
-            <Url>http://www.nps.gov/arch</Url>
+            <Address>1234 Arches Scenic Drive, Moab, UT 84532</Address>
+            <Url>https://www.nps.gov/arch</Url>
         </Reservation>
         <NeighboringStates>
             <State>Utah</State>
-            <State>Colorado</State>
         </NeighboringStates>
     </Park>
-    <Park type="Recreational">
-        <Name>Rocky Mountain</Name>
+    <Park type="National" Founder="Woodrow Wilson">
+        <Name>Rocky Mountain National Park</Name>
         <EstablishedIn>1915</EstablishedIn>
         <Reservation>
-            <Address>1000 US Hwy 36 Estes Park, CO 80517</Address>
-            <Url>http://www.nps.gov/romo</Url>
+            <Address>1000 US Hwy 36, Estes Park, CO 80517</Address>
+            <Url>https://www.nps.gov/romo</Url>
         </Reservation>
         <NeighboringStates>
             <State>Colorado</State>
-            <State>Wyoming</State>
         </NeighboringStates>
     </Park>
-    <Park type="Historical">
-        <Name>Great Smoky Mountains</Name>
+    <Park type="National" Founder="Franklin D. Roosevelt">
+        <Name>Great Smoky Mountains National Park</Name>
         <EstablishedIn>1934</EstablishedIn>
         <Reservation>
-            <Address>107 Park Headquarters Road Gatlinburg, TN 37738</Address>
-            <Url>http://www.nps.gov/grsm</Url>
+            <Address>107 Park Headquarters Road, Gatlinburg, TN 37738</Address>
+            <Url>https://www.nps.gov/grsm</Url>
         </Reservation>
         <NeighboringStates>
             <State>Tennessee</State>
             <State>North Carolina</State>
         </NeighboringStates>
     </Park>
-    <Park type="Recreational">
-        <Name>Olympic</Name>
+    <Park type="National" Founder="Franklin D. Roosevelt">
+        <Name>Olympic National Park</Name>
         <EstablishedIn>1938</EstablishedIn>
         <Reservation>
-            <Address>3002 Mount Angeles Road Port Angeles, WA 98362</Address>
-            <Url>http://www.nps.gov/olym</Url>
+            <Address>3002 Mount Angeles Road, Port Angeles, WA 98362</Address>
+            <Url>https://www.nps.gov/olym</Url>
         </Reservation>
         <NeighboringStates>
             <State>Washington</State>
         </NeighboringStates>
     </Park>
-    <Park type="Historical">
-        <Name>Acadia</Name>
+    <Park type="National" Founder="Woodrow Wilson">
+        <Name>Acadia National Park</Name>
         <EstablishedIn>1919</EstablishedIn>
         <Reservation>
-            <Address>25 Visitor Center Road Bar Harbor, ME 04609</Address>
-            <Url>http://www.nps.gov/acad</Url>
+            <Address>25 Visitor Center Road, Bar Harbor, ME 04609</Address>
+            <Url>https://www.nps.gov/acad</Url>
         </Reservation>
         <NeighboringStates>
             <State>Maine</State>
         </NeighboringStates>
     </Park>
-    <Park type="Recreational">
-        <Name>Cuyahoga Valley</Name>
+    <Park type="National" Founder="Bill Clinton">
+        <Name>Cuyahoga Valley National Park</Name>
         <EstablishedIn>2000</EstablishedIn>
         <Reservation>
-            <Address>15610 Vaughn Road Brecksville, OH 44141</Address>
-            <Url>http://www.nps.gov/cuva</Url>
+            <Address>15610 Vaughn Road, Brecksville, OH 44141</Address>
+            <Url>https://www.nps.gov/cuva</Url>
         </Reservation>
         <NeighboringStates>
             <State>Ohio</State>
         </NeighboringStates>
     </Park>
-    <Park type="Historical">
-        <Name>Joshua Tree</Name>
+    <Park type="National" Founder="Bill Clinton">
+        <Name>Joshua Tree National Park</Name>
         <EstablishedIn>1994</EstablishedIn>
         <Reservation>
-            <Address>74485 National Park Drive Twentynine Palms, CA 92277</Address>
-            <Url>http://www.nps.gov/jotr</Url>
+            <Address>74485 National Park Drive, Twentynine Palms, CA 92277</Address>
+            <Url>https://www.nps.gov/jotr</Url>
         </Reservation>
         <NeighboringStates>
             <State>California</State>
-            <State>Nevada</State>
-            <State>Arizona</State>
         </NeighboringStates>
     </Park>
-</Parks>    
+</Parks>
