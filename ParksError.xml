@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parks>
+    <Park type="National" Founder="John Doe"> <!-- Error: 'Founder' attribute is not allowed. -->
+        <Name>Grand Canyon National Park</Name>
+        <EstablishedIn>1919a</EstablishedIn> <!-- Error: 'EstablishedIn' should be a positive integer. -->
+        <Reservation>
+            <Address>Grand Canyon, AZ</Address>
+            <Url>https:/www.nps.gov/grca</Url> <!-- Error: 'Url' is not a valid URI. -->
+        </Reservation>
+        <NeighboringStates>
+            <State>Arizona</State>
+            <State>89</State> <!-- Error: 'State' should be a string. -->
+        </NeighboringStates>
+    </Park>
+</Parks>
