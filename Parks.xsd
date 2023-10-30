@@ -34,7 +34,4 @@
         </xs:complexType>
     </xs:element>
 
-    <!-- Definition for the 'Owner' element (outside of the root, assuming it's referenced elsewhere) -->
-    <xs:element name="Owner" type="xs:string"/>
-
 </xs:schema>
